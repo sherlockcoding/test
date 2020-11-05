@@ -8,8 +8,10 @@
         Title="MainWindow" Height="450" Width="800">
 
     <DockPanel>
-        <Button DockPanel.Dock="Bottom" Name="Btn1" Content=" Confirm to start" Click="Btn1_OnClick"></Button> 
-        <TextBox DockPanel.Dock="Left" Name="Text1" Text="Hello"></TextBox>
+        <Button DockPanel.Dock="Bottom" Name="Btn1" Content=" Confirm to start" Click="Btn1_OnClick"></Button>
+        <Button DockPanel.Dock="Bottom" Name="Btn2" Content=" Show the device info" Click="Click_Show_DeviceInfo"></Button>
+
+<TextBox DockPanel.Dock="Left" Name="Text1" Text="Hello"></TextBox>
         <Label Name="Label00" Content=" WPF Test Label"></Label>
         <TextBlock HorizontalAlignment="Left" Margin="387,60,0,0" 
                    TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>

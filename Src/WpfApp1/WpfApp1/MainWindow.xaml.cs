@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WpfApp1.Model;
 
 namespace WpfApp1
 {
@@ -49,6 +50,12 @@ namespace WpfApp1
         {
             int i2 = i + i1;
             return i2;
+        }
+
+        private void Click_Show_DeviceInfo(object sender, RoutedEventArgs e)
+        {
+            DeviceManager deviceManager = new DeviceManager();
+            deviceManager.showInfo();
         }
     }
 }
