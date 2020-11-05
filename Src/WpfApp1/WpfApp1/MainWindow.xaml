@@ -10,10 +10,12 @@
     <DockPanel>
         <Button DockPanel.Dock="Bottom" Name="Btn1" Content=" Confirm to start" Click="Btn1_OnClick"></Button> 
         <TextBox DockPanel.Dock="Left" Name="Text1" Text="Hello"></TextBox>
-
-        <Label DockPanel.Dock="Top" Name="Label00" Content=" WPF Test Label"></Label>
+        <Label Name="Label00" Content=" WPF Test Label"></Label>
         <TextBlock HorizontalAlignment="Left" Margin="387,60,0,0" 
                    TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <GroupBox DockPanel.Dock="Top"  Name="GroupBox00">
+            <Label Content=" GP _ label"></Label>
+        </GroupBox>
     </DockPanel>
 
 </Window>
